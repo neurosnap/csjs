@@ -7,7 +7,7 @@ var test = require('tape');
 var includeFolder = require('include-folder');
 var bulk = require('bulk-require');
 
-var csjs = require('../');
+var csjs = require('../../postcss-scopify-everything').csjs;
 
 var extensions = {
   source: '.source.js',

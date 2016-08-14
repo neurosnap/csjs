@@ -1,4 +1,4 @@
-const csjs = require('../');
+const csjs = require('../../postcss-scopify-everything').csjs;
 
 const keyframes = require('./keyframes.source');
 

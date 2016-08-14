@@ -1,4 +1,4 @@
-const csjs = require('../');
+const csjs = require('../../postcss-scopify-everything').csjs;
 
 module.exports = csjs`
   /* Here's a comment */
@@ -29,7 +29,7 @@ module.exports = csjs`
   /*
   @keyframes bam {}
    */
-  
+
   /* .woot {
     animation-name: bam;
   } */
